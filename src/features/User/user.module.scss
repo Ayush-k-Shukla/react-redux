@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0px 10px;
+
+  .parentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .buttonsContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+}
